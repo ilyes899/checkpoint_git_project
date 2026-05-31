@@ -1,0 +1,204 @@
+PS C:\Users\dell\Desktop\learn_git> git init
+Initialized empty Git repository in C:/Users/dell/Desktop/learn_git/.git/
+PS C:\Users\dell\Desktop\learn_git> git add .
+PS C:\Users\dell\Desktop\learn_git> git add .
+PS C:\Users\dell\Desktop\learn_git> git add ./
+PS C:\Users\dell\Desktop\learn_git> git commit -m "adding third.txt"
+>> 
+[master (root-commit) ba5d967] adding third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 third.txt
+PS C:\Users\dell\Desktop\learn_git> git log
+>>
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+PS C:\Users\dell\Desktop\learn_git> git add .\fourth.txt
+PS C:\Users\dell\Desktop\learn_git> git add .
+PS C:\Users\dell\Desktop\learn_git> git commit -m "adding fourth.txt"
+[master 7e3caad] adding fourth.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 fourth.txt
+PS C:\Users\dell\Desktop\learn_git> rm third.txt
+>>
+PS C:\Users\dell\Desktop\learn_git> git add .
+>>
+PS C:\Users\dell\Desktop\learn_git> git commit -m "removing third.txt"
+>>
+[master 9a2638e] removing third.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ delete mode 100644 third.txt
+PS C:\Users\dell\Desktop\learn_git> git log
+>>
+commit 9a2638eff176a1a38f29edaab9b0cc106a372f0d (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:28:24 2026 +0200
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+:
+commit 9a2638eff176a1a38f29edaab9b0cc106a372f0d (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:28:24 2026 +0200
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+:
+commit 9a2638eff176a1a38f29edaab9b0cc106a372f0d (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:28:24 2026 +0200
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+:
+commit 9a2638eff176a1a38f29edaab9b0cc106a372f0d (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:28:24 2026 +0200
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+:
+commit 9a2638eff176a1a38f29edaab9b0cc106a372f0d (HEAD -> master)
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:28:24 2026 +0200
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+:
+
+    removing third.txt
+
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+(END)
+commit 7e3caad12f5930ce9f6c4a2901a2c35c9c3804c0
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:26:49 2026 +0200
+
+    adding fourth.txt
+
+commit ba5d967b0067916ac25a691e8767bd2244b37dbd
+Author: ilyes <iilyes813@gmail.com>
+Date:   Sun May 31 10:23:20 2026 +0200
+
+    adding third.txt
+PS C:\Users\dell\Desktop\learn_git> git config --global core.pager cat
+>>
+PS C:\Users\dell\Desktop\learn_git> git config --global --list
+user.email=iilyes813@gmail.com
+user.name=ilyes
+core.pager=cat
+PS C:\Users\dell\Desktop\learn_git> git remote add origin https://github.com/ilyes899/checkpoint_git_project.git
+PS C:\Users\dell\Desktop\learn_git> git branch -M main
+>>
+PS C:\Users\dell\Desktop\learn_git> git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 626 bytes | 208.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/ilyes899/checkpoint_git_project.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\dell\Desktop\learn_git> git add ./
